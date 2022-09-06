@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #111827;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+nav .logo h3 {
+  font-weight: 600;
+}
+
+nav .logo span {
+  color: #dc2626;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+nav .navLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .navLogin h4 {
+  margin: 0 10px;
+}
+
+nav .navLogin h4:nth-last-child(1) {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+nav .navLogin h4:nth-last-child(1):hover {
+  background-color: #111827;
+  color: white;
+}
+
+.hero {
+  background-color: #dcfce7;
+  border-radius: 10px;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin: 5px 0px;
+}
+
+.hero p {
+  color: #475569;
+}
+
+.hero .black {
+  background-color: #111827;
+  color: white !important;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.hero .black p {
+  color: white !important;
+}
+
+.hero .black:hover {
+  background-color: #dcfce7;
+  border: 1px solid #111827;
+}
+
+.hero .black p:hover {
+  color: #111827 !important;
+}
+
+.hero .white {
+  border: 1px solid #111827;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.hero .white:hover {
+  background-color: #111827;
+}
+
+.hero .white p:hover {
+  color: white;
+}
+
+.heroLogin {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.hero .profileFoto {
+  display: flex;
+  justify-content: center;
+}
+
+.hero img {
+  width: 25rem;
+}
+
+.aboutUs {
+  margin: 80px 0px;
+}
+
+.aboutUs h3 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.aboutUs hr {
+  width: 50px;
+  margin: auto;
+}
+
+.aboutUsSection {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.aboutUsSection img {
+  width: 40rem;
+}
+
+.aboutUsSection .textAboutSection h3 {
+  text-align: start;
+  font-size: 24px;
+}
+
+.aboutUsSection .textAboutSection p {
+  margin: 20px 0px;
+  color: #475569;
+}
+
+.aboutUsSection .textAboutSection .discountAboutSection {
+  display: flex;
+  margin: 50px;
+}
+
+.aboutUsSection .textAboutSection .discountAboutSection span h4 {
+  margin: 0px 30px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.aboutUsSection .textAboutSection .discountAboutSection span p {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  /* margin: 80px 0px; */
+  background-color: #dcfce7;
+  border-radius: 10px;
+  padding: 4rem 3rem;
+}
+
+footer .textFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .textFooter ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+footer .textFooter ul li {
+  color: #475569;
+  padding: 5px 0px;
+}
+
+footer hr {
+  margin: 30px 0px;
+  color: #475569;
+}
+
+footer .footerBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footerBottom ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer .footerBottom > ul > li > a {
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+footer .footerBottom .navLogin {
+  display: flex;
+  align-items: center;
+}
+
+footer .footerBottom .navLogin i {
+  margin: 0 10px;
+}
